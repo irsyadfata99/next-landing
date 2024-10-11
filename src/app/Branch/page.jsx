@@ -1,11 +1,11 @@
 import React from "react";
 
-const Menu = () => {
+const Pages = () => {
   return (
     <div>
-      <h1>Menu</h1>
+      <h1>Branch</h1>
     </div>
   );
 };
 
-export default Menu;
+export default Pages;
