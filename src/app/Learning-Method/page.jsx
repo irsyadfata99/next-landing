@@ -7,7 +7,7 @@ const Pages = () => {
     <div className="relative h-screen w-screen">
       <Image className="absolute top-0 left-0" src="/Background-Decor.png" alt="logo" width={933} height={612} />
 
-      <div className="flex justify-center flex-col items-center mt-24 text-5xl">
+      <div className="flex justify-center flex-col items-center text-5xl">
         <h1 className="text-black mt-24">Learning Methods</h1>
 
         {/*Grid Atazz  */}
