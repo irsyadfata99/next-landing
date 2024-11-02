@@ -4,7 +4,7 @@ import Link from "next/link";
 import Back from "../Components/BackButton";
 
 const ColumnOfImages = () => {
-  const imagePaths = ["/GAA List.png", "/Robots List.png", "/STEAM-List.png", "/CWM List.png", "/CP-List.png", "/Active-Ai-List.png"];
+  const imagePaths = ["/GAA List.png", "/Robots List.png", "/Steam-List.png", "/CWM List.png", "/CP-List.png", "/Active-AI-List.png"];
 
   return (
     <div className="container flex h-screen">
