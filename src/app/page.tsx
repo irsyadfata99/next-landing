@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="h-screen w-screen relative">
-      <video src="/sample.mp4" autoPlay muted preload="metadata" loop className="absolute top-0 left-0 w-full h-full object-cover opacity-75 z-0"></video>
+      <video src="/Looping-Transisi.mov" autoPlay muted preload="metadata" loop className="absolute top-0 left-0 w-full h-full object-cover opacity-40 z-0"></video>
       <Image className="absolute top-0 left-0" src="/homebackground.png" alt="logo" width={933} height={612} />
       <div className="relative z-10 flex flex-row pt-44">
         <div className="text-black basis-1/4 pt-24 pl-52 flex flex-row">
@@ -21,6 +21,9 @@ export default function Home() {
           <Button />
         </Link>
       </div>
+      <Link href={"/WhyChooseUs"}>
+        <Image className="absolute bottom-5 right-5" src="/Why-Button.png" alt="logo" width={100} height={100} />
+      </Link>
     </div>
   );
 }
