@@ -56,7 +56,7 @@ const Galleries = () => {
           </div>
           <div className="w-fit ml-20 pt-16 pl-10">
             <h1>Koding Next</h1>
-            <h1>All Branches</h1>
+            <h1>Galleries</h1>
           </div>
         </div>
       </div>
