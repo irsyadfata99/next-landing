@@ -14,6 +14,12 @@ const config: Config = {
         width: "945px",
         height: "468px",
       },
+      maxWidth: {
+        "933": "933px",
+      },
+      maxHeight: {
+        "612": "612px",
+      },
     },
   },
   plugins: [],
