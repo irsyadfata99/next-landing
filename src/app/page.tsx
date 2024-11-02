@@ -15,7 +15,7 @@ export default function Home() {
             <p>Bandung & BSD</p>
           </div>
           {/* Will look the alternative, but in the meantime just do like this */}
-          <img src="/logo.png" alt="logo" className="logo-image" />
+          <Image src="/logo.png" alt="logo" className="logo-image" width={200} height={100} />
         </div>
         <Link href={"/Menu"}>
           <Button />
