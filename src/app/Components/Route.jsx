@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Button({ text }) {
+export default function Button() {
   return (
     <div className="flex flex-col space-y-4 pt-32 items-center">
       {/* Button 1 */}
