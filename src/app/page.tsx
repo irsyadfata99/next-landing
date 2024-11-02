@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="max-w-933 max-h-612 relative">
+    <div className="max-w-1920 max-h-1200 relative">
       <video src="/Looping-Transisi.mov" autoPlay muted preload="metadata" loop className="absolute top-0 left-0 w-full h-full object-cover opacity-40 z-0"></video>
       {/* <Image className="absolute top-0 left-0" src="/homebackground.png" alt="logo" width={933} height={612} /> */}
       <div className="relative z-10 flex flex-row pt-44">

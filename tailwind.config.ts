@@ -15,10 +15,10 @@ const config: Config = {
         height: "468px",
       },
       maxWidth: {
-        "933": "933px",
+        "1920": "1920px",
       },
       maxHeight: {
-        "612": "612px",
+        "1200": "1200px",
       },
     },
   },
