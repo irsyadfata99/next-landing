@@ -6,17 +6,16 @@ import Sidebar from "../Components/Sidebar";
 
 const Pages = () => {
   return (
-    <div className="relative h-screen w-screen">
-      <Image className="absolute top-0 left-0 object-cover opacity-60" src={"/active_module.png"} alt="menu" width={933} height={612} />
-      <Image className="absolute top-0 left-0" src="/branchbackground.png" alt="logo" width={933} height={612} />
-      <div className="absolute text-black flex flex-col text-center justify-center">
+    <div className="max-w-1920 max-h-1200 relative">
+      <Image className="absolute top-0 left-0 w-[1920px] h-[612px] object-cover opacity-50" src={"/active_module.png"} alt="menu" width={933} height={612} />
+      <Image className="absolute top-0 left-0 w-[1920px] h-[612px] object-fit" src="/branchbackground.png" alt="logo" width={933} height={612} />
+      <div className="flex justify-center flex-col items-center text-5xl">
         <div>
           <Link href={"/Menu"}>
             <Back />
           </Link>
         </div>
-        <div className="flex flex-col items-center justify-center ml-80 mt-20">
-
+        <div className="flex flex-col items-center justify-center ml-80 mt-20 z-20">
           <div className="flex justify-between">
             <Link href={"/JK-Route"}>
               <Image src="/jk-button.png" alt="jk-button" width={319} height={319} />
@@ -32,9 +31,9 @@ const Pages = () => {
             </Link>
           </div>
         </div>
-        <div className="absolute ml-20 pr-96 mt-24">
-          <Sidebar />
-        </div>
+      </div>
+      <div className="absolute top-[50%] pl-11" style={{ width: "100%", height: "100%" }}>
+        <Sidebar />
       </div>
     </div>
   );
