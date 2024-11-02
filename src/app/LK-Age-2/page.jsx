@@ -23,7 +23,7 @@ const ColumnOfImages = () => {
             ))}
           </div>
           <div>
-            <Image src="/LK-title.png" alt="menu" width={246} height={246} />
+            <Image src="/lk-title.png" alt="menu" width={246} height={246} />
             <Image src="/lk-78-button.png" alt="menu" width={277} height={277} />
           </div>
         </div>
