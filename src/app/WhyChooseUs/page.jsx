@@ -21,7 +21,7 @@ const Pages = () => {
         {/*Grid Atazz  */}
         <div className="grid grid-cols-3 gap-4 mt-8">
           <Card text="Get to know our modules!" />
-          <Card text="Billingual Instrction" />
+          <Card text="Bilingual Instruction" />
           <Card text="Trusted Partner of Top Schools" />
         </div>
 

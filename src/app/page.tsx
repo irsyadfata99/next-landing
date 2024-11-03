@@ -10,11 +10,11 @@ export default function Home() {
       <Image className="absolute top-0 left-0" src="/homebackground.png" alt="logo" width={933} height={612} />
       <div className="relative z-10 flex flex-row pt-44">
         <div className="text-black basis-1/4 pt-24 pl-52 flex flex-row">
-          <div>
-            <h1 className="w-44">Koding Next</h1>
-            <p>Bandung & BSD</p>
+          <div className="w-64">
+            <h1 style={{ fontSize: "37px" }}>Koding Next</h1>
+            <p style={{ fontSize: "25px" }}>Bandung & BSD</p>
           </div>
-          <Image src="/logo.png" alt="logo" className="logo-image" width={200} height={100} />
+          <Image src="/logo.png" alt="logo" className="logo-image" width={250} height={150} />
         </div>
         <Link href={"/Menu"}>
           <Button />

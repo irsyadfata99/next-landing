@@ -6,7 +6,7 @@ import CarouselBranch from "../Components/CarouselBranch";
 
 const slides = [
   {
-    image: "/Facilities-1.jpg",
+    image: "/Branch_selection.jpg",
     title: "Lobby",
   },
   {
