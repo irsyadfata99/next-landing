@@ -6,9 +6,9 @@ import Back from "../Components/BackButton";
 
 const Pages = () => {
   return (
-    <div className="relative h-screen w-screen">
-      <Image className="absolute top-0 left-0 object-cover opacity-60" src={"/why-choose-us.png"} alt="menu" width={933} height={612} />
-      <Image className="absolute top-0 left-0" src="/Background-Decor.png" alt="logo" width={933} height={612} />
+    <div className="max-w-1920 max-h-1200 relative">
+      <Image className="absolute top-0 left-0 w-[1920px] h-[612px] object-cover opacity-50" src={"/why-choose-us.png"} alt="menu" width={933} height={612} />
+      <Image className="absolute top-0 left-0 w-[1920px] h-[612px] object-fit" src="/Background-Decor.png" alt="logo" width={933} height={612} />
 
       <div className="flex justify-center flex-col items-center text-5xl">
         <div>
@@ -21,7 +21,7 @@ const Pages = () => {
         {/*Grid Atazz  */}
         <div className="grid grid-cols-3 gap-4 mt-8">
           <Card text="Get to know our modules!" />
-          <Card text="Billingual Instrction" />
+          <Card text="Bilingual Instruction" />
           <Card text="Trusted Partner of Top Schools" />
         </div>
 

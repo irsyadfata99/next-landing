@@ -6,9 +6,9 @@ import Sidebar from "../Components/Sidebar";
 
 const Pages = () => {
   return (
-    <div className="relative h-screen w-screen">
-      <Image className="absolute top-0 left-0 object-cover opacity-60" src={"/JK_route.png"} alt="menu" width={933} height={612} />
-      <Image className="absolute top-0 left-0" src="/branchbackground.png" alt="logo" width={933} height={612} />
+    <div className="max-w-1920 max-h-1200 relative">
+      <Image className="absolute top-0 left-0 w-[1920px] h-[612px] object-cover opacity-50" src={"/JK_route.png"} alt="menu" width={933} height={612} />
+      <Image className="absolute top-0 left-0 w-[1920px] h-[612px] object-fit" src="/branchbackground.png" alt="logo" width={933} height={612} />
       <div className="text-black flex flex-col text-center justify-center">
         <div>
           <Link href={"/active-module"}>
@@ -28,7 +28,7 @@ const Pages = () => {
             </Link>
           </div>
         </div>
-        <div className="absolute ml-20 pr-96">
+        <div className="absolute pt-56 pl-11" style={{ width: "100%", height: "100%" }}>
           <Sidebar />
         </div>
       </div>
